@@ -1,8 +1,8 @@
 import logging
-logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.DEBUG,
                     format="%(asctime)s %(message)s",
                     datefmt="%Y-%m-%dT%H:%M:%S%z")
+logger = logging.getLogger(__name__)
 
 DAY = X
 
@@ -14,7 +14,7 @@ def part2(inputfile : str) :
 
 if __name__ == "__main__":
     input_file = f"input/day{DAY}.txt"
-    #input_file = f"input/day{DAY}_test.txt"
+    input_file = f"input/day{DAY}_test.txt"
 
     logger.info("Starting Day %d Puzzle - %s", DAY, input_file)
 
