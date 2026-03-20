@@ -6,6 +6,11 @@ logging.basicConfig(level=logging.DEBUG,
 
 DAY = X
 
+def part1(inputfile : str) :
+    pass
+
+def part2(inputfile : str) :
+    pass
 
 if __name__ == "__main__":
     input_file = f"input/day{DAY}.txt"
@@ -13,5 +18,5 @@ if __name__ == "__main__":
 
     logger.info("Starting Day %d Puzzle - %s", DAY, input_file)
 
-    #part1(input_file)
-    #part2(input_file)
+    part1(input_file)
+    part2(input_file)
